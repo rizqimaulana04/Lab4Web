@@ -1,0 +1,376 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+line-height: 1;
+font-size: 100%;
+font-family: 'Open Sans', sans-serif;
+color: #5a5a5a;
+}
+
+#container {
+width: 980px;
+margin: 0 auto;
+box-shadow: 0 0 1em #cccccc;
+}
+
+
+header {
+padding: 20px;
+}
+
+header h1 {
+margin: 20px 10px;
+color: #b5b5b5;
+}
+
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+    background-color: #2b83ea;
+}
+
+#hero {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+#hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#wrapper {
+    margin: 0;
+}
+
+#main {
+    float: left;
+    width: 640px;
+    padding: 20px;
+}
+
+#sidebar {
+    float: left;
+    width: 260px;
+    padding: 20px;
+}
+
+.widget-box {
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.widget-box .title {
+    padding: 10px 16px;
+    background-color: #428bca;
+    color: #fff;
+}
+
+.widget-box ul {
+    list-style-type: none;
+}
+
+.widget-box li {
+    border-bottom: 1px solid #eee;
+}
+
+.widget-box li a {
+    padding: 10px 16px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+
+.widget-box li:hover a {
+    background-color: #eee;
+}
+
+.widget-box p {
+    padding: 15px;
+    line-height: 25px;
+}
+
+footer {
+    clear: both;
+    background-color: #1d1d1d;
+    padding: 20px;
+    color: #eee;
+}
+
+.box {
+    display: block;
+    float: left;
+    width: 33.333333%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.box h3 {
+    margin: 15px 0;
+}
+    
+.box p {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+    
+box img {
+    border: 0;
+    vertical-align: middle;
+}
+    
+.image-circle {
+    border-radius: 50%;
+}
+    
+.row {
+    margin: 0 -10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+    
+.row:after, .row:before, .entry:after, .entry:before {
+    content:'';
+    display:table;
+}
+    
+.row:after, .entry:after {
+    clear:both;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin: 40px 0;
+}
+
+.entry {
+    margin: 15px 0;
+}
+
+.entry h2 {
+    margin-bottom: 20px;
+}
+
+.entry p {
+    line-height: 25px;
+}
+
+.entry img {
+    float: left;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.entry .right-img {
+    float: right;
+}
+
+#content {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#content address {
+    font-size: 18px;
+    color: #555;
+}
+
+#content form {
+    margin-top: 20px;
+}
+
+#content label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+#content input[type="text"],
+#content input[type="email"],
+#content textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#content input[type="submit"] {
+    background-color: #1f5faa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#content input[type="submit"]:hover {
+    background-color: #2b83ea;
+}
+
+/* Desain khusus untuk bagian "Our Story" */
+#content #our-story {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#content #our-story h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#content #our-story p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* CSS for Contact Information */
+#contact-info {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+#contact-info a {
+    color: #1f5faa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contact-info a:hover {
+    color: #2b83ea;
+}
+
+/* CSS for Contact Form */
+#contact-form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #1f5faa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #2b83ea;
+}
+
+/* CSS for Portfolio Section */
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 25%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.portfolio-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.portfolio-item p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
